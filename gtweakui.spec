@@ -2,7 +2,7 @@
 Summary:        Extra configuration dialogues for gnome
 Name:           gtweakui
 Version: 0.4.0
-Release:        %mkrel 5
+Release:        %mkrel 7
 Group:          Graphical desktop/GNOME
 URL:            http://gtweakui.sourceforge.net/
 License:        GPL
