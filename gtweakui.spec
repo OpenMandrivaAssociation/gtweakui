@@ -58,3 +58,75 @@ rm -rf %{buildroot}
 %{_datadir}/applications/gtweakui-menus.desktop
 %{_datadir}/applications/gtweakui-session.desktop
 %{_datadir}/applications/gtweakui-nautilus.desktop
+
+
+%changelog
+* Wed Jul 27 2011 GÃ¶tz Waschk <waschk@mandriva.org> 0.4.0-8mdv2012.0
++ Revision: 691853
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.4.0-7mdv2011.0
++ Revision: 246725
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Fri Jan 11 2008 Thierry Vignaud <tv@mandriva.org> 0.4.0-5mdv2008.1
++ Revision: 148209
+- drop old menu
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Fri Aug 03 2007 GÃ¶tz Waschk <waschk@mandriva.org> 0.4.0-5mdv2008.0
++ Revision: 58478
+- Import gtweakui
+
+
+
+* Wed Aug  2 2006 Götz Waschk <waschk@mandriva.org> 0.4.0-5mdv2007.0
+- xdg menu
+
+* Fri Sep 02 2005 GÃ¶tz Waschk <waschk@mandriva.org> 0.4.0-4mdk
+- rebuild to remove glitz dep
+
+* Wed Aug 24 2005 GÃ¶tz Waschk <waschk@mandriva.org> 0.4.0-3mdk
+- Rebuild
+
+* Fri Aug 13 2004 Götz Waschk <waschk@linux-mandrake.com> 0.4.0-2mdk
+- fix buildrequires
+
+* Thu Aug 12 2004 Götz Waschk <waschk@linux-mandrake.com> 0.4.0-1mdk
+- add icons to the menu
+- enable startup notification
+- add gtweakui-galeon
+- add locale files
+- New release 0.4.0
+
+* Thu Jun 10 2004 Götz Waschk <waschk@linux-mandrake.com> 0.0.6-2mdk
+- fix buildrequires
+
+* Wed Jun  9 2004 Götz Waschk <waschk@linux-mandrake.com> 0.0.6-1mdk
+- initial mdk package
+
+* Sun May 30 2004 Daniel James <daniel@netbreeze.com.au>
+- Fixed the issue with the session splash preview not displaying for gnome 2.6
+- Updated build system to check for new gtk file chooser dialog
+- Use new gtk file chooser dialog if it is available.
+
+* Fri May 28 2004 Daniel James <daniel@netbreeze.com.au>
+- Made session.c more usable - second dialog is much nicer now.
+
+* Thu May 27 2004 Daniel James <daniel@netbreeze.com.au>
+- Added notice dialog: tells the use which settings require restart
+- Added notices to menus.c
+- Finished session.c - second dialog completed.
+- Added notices to session.c
+
+* Tue May 25 2004 Daniel James <daniel@netbreeze.com.au>
+- Better about dialog.
+
+* Mon Feb 24 2003 Daniel James daniel@netbreeze.com.au 0.0.1
+- Initial RPM release.
