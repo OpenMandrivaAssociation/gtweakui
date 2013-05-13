@@ -8,7 +8,7 @@ URL:            http://gtweakui.sourceforge.net/
 License:        GPL
 Source0:        http://prdownloads.sourceforge.net/gtweakui/%{oname}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
-BuildRequires:  libgnomeui2-devel >= 2.4.0
+BuildRequires:  pkgconfig(libgnomeui-2.0) >= 2.4.0
 BuildRequires:  libglade2.0-devel
 BuildRequires:  perl-XML-Parser
 BuildRequires:  desktop-file-utils
