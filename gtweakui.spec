@@ -2,12 +2,11 @@
 Summary:        Extra configuration dialogues for gnome
 Name:           gtweakui
 Version: 0.4.0
-Release:        %mkrel 8
+Release:        9
 Group:          Graphical desktop/GNOME
 URL:            http://gtweakui.sourceforge.net/
 License:        GPL
 Source0:        http://prdownloads.sourceforge.net/gtweakui/%{oname}-%{version}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:  pkgconfig(libgnomeui-2.0) >= 2.4.0
 BuildRequires:  libglade2.0-devel
 BuildRequires:  perl-XML-Parser
