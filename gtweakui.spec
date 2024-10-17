@@ -4,7 +4,7 @@ Name:           gtweakui
 Version: 0.4.0
 Release:        9
 Group:          Graphical desktop/GNOME
-URL:            http://gtweakui.sourceforge.net/
+URL:            https://gtweakui.sourceforge.net/
 License:        GPL
 Source0:        http://prdownloads.sourceforge.net/gtweakui/%{oname}-%{version}.tar.bz2
 BuildRequires:  pkgconfig(libgnomeui-2.0) >= 2.4.0
