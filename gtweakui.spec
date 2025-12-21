@@ -7,6 +7,11 @@ Group:          Graphical desktop/GNOME
 URL:            https://gtweakui.sourceforge.net/
 License:        GPL
 Source0:        http://prdownloads.sourceforge.net/gtweakui/%{oname}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(libgnomeui-2.0) >= 2.4.0
 BuildRequires:  libglade2.0-devel
 BuildRequires:  perl-XML-Parser
